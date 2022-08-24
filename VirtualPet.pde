@@ -35,6 +35,10 @@ void setup() {
   line(267,393, 267,429);
   line(267,429, 254,442);
   line(267,429, 281,442);
+  
+  fill(0, 0, 0);
+  textSize(20);
+  text("Hi!", width / 4, height / 4);
 }
 
 void draw() {
