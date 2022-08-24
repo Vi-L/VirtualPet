@@ -1,10 +1,12 @@
 void setup() {
   size(500, 500);
-  background(170, 235, 247); // light blue
   noStroke();
-  fill(255, 255, 0); // yellow
+  background(170, 235, 247); // light blue
+  fill(156, 246, 98); // light green
+  rect( 0, 3 * (height/4), width, 3 * (height/4)); // ground
   
   // body
+  fill(255, 255, 0); // yellow
   ellipse(width / 2 - 30, height / 2 + 30, 300, height / 2);
   ellipse(width / 2 + 10, height / 2 - 80, 200, 200);
   
