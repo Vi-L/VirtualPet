@@ -27,15 +27,16 @@ void setup() {
   
   // legs
   stroke(240, 125, 36); //orange
-  strokeWeight(10);
-  line(165,391, 165,429);
+  strokeWeight(8);
+  line(165,391, 165,452);
   line(165,429, 150,442);
   line(165,429, 182, 442);
   
-  line(267,393, 267,429);
+  line(267,393, 267,452);
   line(267,429, 254,442);
-  line(267,429, 281,442);
+  line(267,429, 283,442);
   
+  // greeting
   fill(0, 0, 0);
   textSize(20);
   text("Hi!", width / 4, height / 4);
